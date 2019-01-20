@@ -6,11 +6,14 @@ loading  animation
 
 先引入js和css
 ````````
+
 <link rel="stylesheet" href="css/index.css">
 <script src="js/index.js"></script>
+
 ````````
 然后直接调用loading方法
 ````````
+
 loading({
         width: 6,
         height: 6,
@@ -22,14 +25,15 @@ loading({
         bgColor: '#fff',
         bar: false
     })
+    
 ````````    
     
 # 参数说明
-````````
+```
 
 width: (可选) Number
 loading框的宽度，单位：'rem',  默认6rem
-````````
+```
 ```````
 height: (可选) Number
 loading框的高度，单位：'rem', 默认6rem
@@ -52,6 +56,7 @@ loading框的文字 默认'loading'
 ```````
 ```````
 time: (可选) Number
+
 自动关闭动画的时间, ，单位：毫秒哦， 默认 30000
 ```````
 ```````
