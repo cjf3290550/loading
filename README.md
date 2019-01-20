@@ -9,17 +9,17 @@ loading  animation
 <script src="js/index.js"></script>
 
 然后直接调用loading方法
-    loading({
-        width: 6,
-        height: 6,
-        count: 3,
-        mask: false,
-        type: 'fade',
-        text: 'loading',
-        time: '30000',
-        bgColor: '#fff',
-        bar: false
-    })
+loading({
+width: 6,
+height: 6,
+count: 3,
+mask: false,
+type: 'fade',
+text: 'loading',
+time: '30000',
+bgColor: '#fff',
+bar: false
+})
     
     
 # 参数说明
