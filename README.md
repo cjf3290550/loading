@@ -3,8 +3,8 @@ loading  animation
 
 
 # 使用方法
-
 先引入js和css
+
 ````````
 
 <link rel="stylesheet" href="css/index.css">
@@ -12,6 +12,7 @@ loading  animation
 
 ````````
 然后直接调用loading方法
+
 ````````
 
 loading({
@@ -33,6 +34,7 @@ loading({
 
 width: (可选) Number
 loading框的宽度，单位：'rem',  默认6rem
+
 ```
 ```````
 height: (可选) Number
@@ -66,4 +68,6 @@ bgColor (可选) String
 ```````
 bar: (可选) Boolean
 只在fade模式下生效，切换圆点还是条状的fade模式， 默认false
+
 ````````
+
